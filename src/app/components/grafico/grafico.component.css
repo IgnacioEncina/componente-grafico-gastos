@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+    height: 500px;
+    width: 400px;
+    max-width: 93vmin;
+}
+.header {
+    width: 100%;
+    background-color: rgb(235 116 93);
+    padding: 25px;
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+    flex-direction: row;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+}
+
+.header p{
+    font-size: 13px;
+    margin-bottom: 0;
+    text-align: left;
+}
+
+.header h4{
+    margin-bottom: 0;
+    font-weight: 700;
+}
+
+#grafico {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%; 
+    background-color: #fffbf6;
+    padding: 20px;
+    border-radius: 10px;
+    height: 100%;
+    padding-bottom: 10px;
+}
+
+#grafico h4 {
+    flex-wrap: nowrap;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+}
+
+#canvas {
+    display: flex !important;
+    width: 100% !important;
+    height: 100% !important;
+    max-width: 400px;
+    max-height: 170px;
+    background-color: #fffbf6;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.left {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: auto;
+    justify-content: space-evenly;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+
+}
+
+.footerLeft{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 5px;
+    position: relative;
+    height: auto;
+}
+
+.footerLeft p {
+    font-size: 12px;
+    margin: 0;
+}
+
+.footerLeft h2 {
+    font-weight: 700;
+}
+
+.footerRight{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: end;
+    white-space: nowrap;
+    justify-content: center;
+    padding: 0px;
+
+}
+
+.footerRight p {
+    font-size: 12px;
+    margin: 0;
+}
+
+.footerRight p:first-child {
+    font-weight: bold;
+}
+
+hr {
+    width: 100%;
+}
+
+@media (max-width: 500px) {
+}
+
+

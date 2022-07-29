@@ -1,0 +1,43 @@
+
+
+
+<div class="container">
+  <div class="contenedor">
+    <header role="heading" class="header">
+      <div class="left">
+        <p>My balance</p>
+        <h4>$921.48</h4>
+      </div>
+      <div class="right">
+        <svg width="72" height="48" viewBox="0 0 72 48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd">
+          <circle fill="#382314" cx="48" cy="24" r="24"/>
+          <circle stroke="#FFF" stroke-width="2" cx="24" cy="24" r="23"/></g></svg>
+      </div>
+    </header>
+    <div  id="grafico">
+      <h4>Spending - Last 7 days</h4>
+      <br>
+      <canvas baseChart 
+        id="canvas"
+        [data]="barChartData"
+        [options]="barChartOptions"
+        [plugins]="barChartPlugins"
+        [type]=" 'bar' ">
+      </canvas>
+      <hr>
+      <footer class="footer">
+        <div class="footerLeft">
+          <p>Total this month</p>
+          <h2>$478.33</h2>
+        </div>
+        <div class="footerRight">
+          <p>+2.4%</p>
+          <p>from last mounth</p>
+        </div>
+      </footer>
+    </div>
+  </div>
+    
+</div>
+
+  
